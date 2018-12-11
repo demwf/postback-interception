@@ -1,0 +1,3 @@
+DROP TRIGGER IF EXISTS `modify_postback`;CREATE TRIGGER `modify_postback` BEFORE INSERT ON `tbl_postback_all` FOR EACH ROW BEGIN
+SET NEW.place=(select max(click_param_value4) from tbl_clicks cl where cl.subid=NEW.subid);
+END;

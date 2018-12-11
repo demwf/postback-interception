@@ -1,0 +1,21 @@
+tbl_postback_all
+
+DROP TABLE IF EXISTS `tbl_postback_all`;
+CREATE TABLE `tbl_postback_all` (
+  `id` int(11) NOT NULL,
+  `date_add` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `subid` varchar(255) NOT NULL,
+  `profit` decimal(10,4) DEFAULT NULL,
+  `place` varchar(255) DEFAULT NULL,
+  `p1` varchar(255) DEFAULT NULL,
+  `p2` varchar(255) DEFAULT NULL,
+  `p3` varchar(255) DEFAULT NULL,
+  `p4` varchar(255) DEFAULT NULL,
+  `p5` varchar(255) DEFAULT NULL,
+  `p6` varchar(255) DEFAULT NULL,
+  `p7` varchar(255) DEFAULT NULL,
+  `p8` varchar(255) DEFAULT NULL,
+  `p9` varchar(255) DEFAULT NULL,
+  `p10` varchar(255) DEFAULT NULL,
+  `pp` varchar(255) DEFAULT NULL COMMENT 'Название ПП'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Учет ребиллов';

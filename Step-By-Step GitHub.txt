@@ -44,3 +44,8 @@ git log --oneline
 
 Просмотр статуса каталога
 git status
+
+9. Подсказка. Для апдейтов.
+git add --all
+git commit -m "Second"
+git push -u origin master

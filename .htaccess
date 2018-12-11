@@ -1,0 +1,9 @@
+AddDefaultCharset Off
+<IfModule dir_module>
+    DirectoryIndex index.php
+</IfModule>
+
+<Files private.php>
+order allow,deny
+deny from all
+</Files>

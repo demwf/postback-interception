@@ -25,4 +25,24 @@ PHP-скрипт для перехвата постбеков от Гуся в CPA-трекер.
 {landing_id} - id лендинга
 {operator_id} - id оператора
 
-Определить, как добавить дополнительные значение в трекер
+Определить, как добавить дополнительные значение в трекер.
+
+?n=custom&ak=c36e8e7b64&profit={profit}&txt_param20=USD&subid={p1}&
+status={event}&event_id={event_id}&event={event}&campaign_id={campaign_id}&
+landing_id={landing_id}&operator_id={operator_id}
+
+Игнорировать
+n=custom
+ak=c36e8e7b64
+txt_param20=USD
+
+Именные поля
+profit={profit}
+subid={p1}
+status={event}
+event_id={event_id}
+event={event}
+campaign_id={campaign_id}
+landing_id={landing_id}
+operator_id={operator_id}
+
